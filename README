@@ -1,0 +1,31 @@
+# BERT Go Emotions
+
+This project uses a pre-trained BERT model to classify emotions from text data. The model is fine-tuned on the GoEmotions dataset, which contains 27 emotion labels.
+
+## File Structure
+
+- `preTrainedModel/bert-go-emotions.py`: The main script for training and evaluating the BERT model on the GoEmotions dataset.
+
+## Requirements
+
+- Python 3.6+
+- PyTorch
+- Transformers (Hugging Face)
+- Datasets (Hugging Face)
+- scikit-learn
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/yourrepository.git
+    cd yourrepository
+    ```
+
+2. Install the required packages:
+    ```sh
+    pip install torch transformers torch
+    ```
+
+## Usage
+To test the model, run the file in terminal 
